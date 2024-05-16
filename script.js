@@ -52,6 +52,6 @@ function calculateBMI() {
 	} else {
 	  category = "Obese";
 	}
-  
+   
 	resultDiv.innerHTML = "Your BMI is " + bmi.toFixed(2) + " (" + category + ")";
   }
