@@ -10,7 +10,7 @@ function calculateBMI() {
 	  resultDiv.innerHTML = "Please enter valid height and weight.";
 	  return;
 	}
-  
+
 	var bmi = weight / ((height / 100) ** 2);
 	var category = "";
   
